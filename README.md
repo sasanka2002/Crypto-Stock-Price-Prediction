@@ -70,3 +70,7 @@ Statsmodels (ARIMA, SARIMA)
 Prophet
 
 TensorFlow / Keras (LSTM)
+
+
+Run the Streamlit app
+streamlit run timeline.py
