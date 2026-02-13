@@ -1,42 +1,22 @@
-Crypto-Stock-Price-Prediction
+Crypto Dashboard 📊
+Crypto Dashboard is a web-based application built using Streamlit that allows users to visualize and analyze cryptocurrency data through interactive charts and dashboards.
 
-A simple and interactive Cryptocurrency Price Prediction Dashboard built using Python and Streamlit.
-The app fetches live crypto market data using yfinance and predicts future prices using machine learning and time-series models.
+The application helps users understand market trends, price movements, and key metrics of different cryptocurrencies in a simple and user-friendly interface.
 
-🚀 Project Overview
-
-This application allows users to:
-
-View real-time cryptocurrency price data
-
-Predict future prices using ML models
-
-Analyze technical indicators
-
-Evaluate volatility and risk
-
-Explore interactive visualizations
-
-📊 Forecast Models
-
-The dashboard includes multiple forecasting models:
-
-ARIMA
-
-SARIMA
-
-Prophet
-
-LSTM (Deep Learning)
-
-Users can compare Actual vs Predicted prices and adjust the forecast horizon.
-
-📈 Technical Indicators
-
-The app provides common trading indicators:
-
-Simple Moving Average (SMA)
-
-Exponential Moving Average (EMA)
-
-Relative Strength Index (RSI)
+Features
+Interactive dashboard for crypto data
+Real-time or historical price visualization
+Clean and responsive UI
+Easy to use and beginner friendly
+Built completely with Python
+Technologies Used
+Python
+Streamlit
+Pandas
+NumPy
+Plotly
+Scikit-learn (if used for analysis)
+How to Run the Project
+Clone or download the repository.
+Install required libraries:
+pip install -r requirements.txt
