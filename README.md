@@ -33,7 +33,7 @@ The application helps users understand market trends, price movements, and key m
 
 2. Install required libraries:
 
-3. Run the application:
+3.  Run the application:
 
-streamlit run timeline.py
+  - streamlit run timeline.py
 
