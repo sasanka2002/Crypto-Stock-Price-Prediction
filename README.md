@@ -72,5 +72,5 @@ Prophet
 TensorFlow / Keras (LSTM)
 
 
-Run the Streamlit app
+Run the Streamlit app:
 streamlit run timeline.py
