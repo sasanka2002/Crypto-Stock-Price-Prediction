@@ -1,76 +1,42 @@
-# Crypto-Stock-Price-Prediction
-Cryptocurrency Price Prediction &amp; Analytics Dashboard built using Streamlit and Python. The app fetches live crypto data via yfinance and applies ARIMA, SARIMA, Prophet, and LSTM models for forecasting. Includes technical indicators, volatility analysis, correlation matrix, candlestick charts, and interactive visualizations for market insights.
-An interactive cryptocurrency analytics and forecasting dashboard built using Python, Streamlit, and Machine Learning models. This project provides real-time crypto data visualization, technical analysis, and future price forecasting using advanced time-series models.
+Crypto-Stock-Price-Prediction
 
-🚀 Features
-📊 Forecast Analytics
+A simple and interactive Cryptocurrency Price Prediction Dashboard built using Python and Streamlit.
+The app fetches live crypto market data using yfinance and predicts future prices using machine learning and time-series models.
 
-ARIMA Forecast
+🚀 Project Overview
 
-SARIMA Forecast
+This application allows users to:
 
-Prophet Forecast
+View real-time cryptocurrency price data
 
-LSTM Deep Learning Forecast
+Predict future prices using ML models
 
-Actual vs Predicted comparison
+Analyze technical indicators
 
-Adjustable forecast horizon
+Evaluate volatility and risk
+
+Explore interactive visualizations
+
+📊 Forecast Models
+
+The dashboard includes multiple forecasting models:
+
+ARIMA
+
+SARIMA
+
+Prophet
+
+LSTM (Deep Learning)
+
+Users can compare Actual vs Predicted prices and adjust the forecast horizon.
 
 📈 Technical Indicators
+
+The app provides common trading indicators:
 
 Simple Moving Average (SMA)
 
 Exponential Moving Average (EMA)
 
 Relative Strength Index (RSI)
-
-📉 Volatility & Risk Analysis
-
-30-day rolling volatility
-
-Daily returns distribution
-
-Risk insights
-
-🔗 Correlation Matrix
-
-Multi-crypto comparison
-
-Interactive heatmap
-
-🕯 Candlestick & Volume Charts
-
-Interactive candlestick charts
-
-Volume trend visualization
-
-📊 Returns & Drawdown
-
-Cumulative returns
-
-Maximum drawdown analysis
-
-🛠 Tech Stack
-
-Python
-
-Streamlit
-
-Pandas & NumPy
-
-Plotly
-
-yfinance
-
-Scikit-learn
-
-Statsmodels (ARIMA, SARIMA)
-
-Prophet
-
-TensorFlow / Keras (LSTM)
-
-
-Run the Streamlit app:
-streamlit run timeline.py
